@@ -221,6 +221,7 @@ nav .logo:hover {
     color: #fff;
     display: flex;
     justify-content: center;
+
 }
 
 .descripcion {
@@ -237,7 +238,16 @@ nav .logo:hover {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 300px;
+    margin-top: 500px;
+    cursor: pointer;
+    position: sticky;
+}
+
+.Redes1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 200px;
     cursor: pointer;
     position: sticky;
 }
@@ -577,7 +587,7 @@ nav .logo:hover {
     border-radius: 4px;
     animation: loadx 8s forwards;
 
-    
+
 }
 
 
@@ -714,7 +724,7 @@ nav .logo:hover {
 
 
 
-.animacion{
+.animacion {
     margin-left: 50px;
 }
 
@@ -805,7 +815,7 @@ li {
 
 /*----------------------CURSOS 2-------------------*/
 
-.div-cursos2{
+.div-cursos2 {
     margin-left: 700px;
     margin-top: -180px;
 }
@@ -835,72 +845,77 @@ li {
 .div-carreras {
     margin-right: 0px;
     margin-top: -3px;
-    
+
 }
-    .titulo-carrera{
+
+.titulo-carrera {
     margin-right: 0px;
     margin-top: -3px;
-    
-    }
 
-.carrera{
+}
+
+.carrera {
     color: #fff;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 30px;
 }
-    .uni{
-        margin-left: 700px;
-        margin-right: 0px;
-        margin-top: 45px ;
-        
-    }
 
-    /*-----------------IDIOMA-------------------------*/
+.uni {
+    margin-left: 700px;
+    margin-right: 0px;
+    margin-top: 45px;
 
-    .idiomas{
-        width: 200px;
-        margin-left: 700px;
-        margin-top: 400px;
-       
-    }
+}
 
-    .idioma{
-        color: #09f5c6;
-        font-family: 'Barlow Condensed', sans-serif;
-        font-size: 25px;
-        font-weight: 600;
+/*-----------------IDIOMA-------------------------*/
 
-    }
-    .div-idioma{
-        margin-top:0px;
-    }
-    .español{
-        color: #fff;
-        font-family: 'Barlow Condensed', sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 30px;
-        
-    }
-    .ingles{
-        color: #fff;
-        font-family: 'Barlow Condensed', sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 30px;
-    }
+.idiomas {
+    width: 200px;
+    margin-left: 700px;
+    margin-top: 400px;
 
-    /*------------------SKILSS-----------------------*/
+}
 
-    .skills{
-        margin-top: -120px;
-        margin-left: 150px;
-        
-    }
+.idioma {
+    color: #09f5c6;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
 
-.skill{
+}
+
+.div-idioma {
+    margin-top: 0px;
+}
+
+.español {
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.ingles {
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/*------------------SKILSS-----------------------*/
+
+.skills {
+    margin-top: -120px;
+    margin-left: 150px;
+
+}
+
+.skill {
     color: #09f5c6;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 30px;
@@ -910,38 +925,40 @@ li {
 
 
 
-h5{
+h5 {
     color: #fff;
-        font-family: 'Barlow Condensed', sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 30px;
-       
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+
 }
 
 
 /*------------------------PROYECTOS---------------------*/
 
-.d-block{
+.d-block {
     margin-left: 25%;
     margin-bottom: 100px;
 }
-.d-md-block{
-    text-shadow:black 2px 2px ;
+
+.d-md-block {
+    text-shadow: black 2px 2px;
 }
 
-.carousel-inner{
+.carousel-inner {
     margin-top: 100px;
 }
-    
+
 
 /*-------------------CONTACTO------------------*/
 .contactoFormulario {
-  border-radius: 20px;
-  width: 65%;
-  height: auto;
-  margin: 80px 0 0 0;
+    border-radius: 20px;
+    width: 65%;
+    height: auto;
+    margin: 80px 0 0 0;
 }
+
 .contactoFormulario .formulario input[type=text] {
     background-color: transparent;
     border: none;
@@ -949,72 +966,76 @@ h5{
     width: 70%;
     padding: 8px;
     font-size: 22px;
-    border:2px solid #fff;
+    border: 2px solid #fff;
     margin-bottom: 10px;
     font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 600 ;
+    font-weight: 600;
     margin-left: 150px;
-    
-}
-.contactoFormulario .formulario input[type=email] {
-  background-color: transparent;
-  border: none;
-  border-radius: 10px;
-  width: 70%;
-  padding: 8px;
-  font-size: 22px;
-  border:2px solid #fff;
-  margin-bottom: 40px;
-  font-family: 'Barlow Condensed', sans-serif;
-  font-weight: 600 ;
-  margin-left: 150px;
 
-  
 }
+
+.contactoFormulario .formulario input[type=email] {
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    width: 70%;
+    padding: 8px;
+    font-size: 22px;
+    border: 2px solid #fff;
+    margin-bottom: 40px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    margin-left: 150px;
+
+
+}
+
 .contactoFormulario .formulario textarea {
-  resize: none;
-  width: 70%;
-  background-color: transparent;
-  border:2px solid #fff;
-  margin-bottom: 10px;
-  font-family: 'Barlow Condensed', sans-serif;
-  font-weight: 600 ;
-  margin-left: 150px;
-  font-size: 22px;
-  height: 250px;
+    resize: none;
+    width: 70%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-bottom: 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    margin-left: 150px;
+    font-size: 22px;
+    height: 250px;
 }
+
 .contactoFormulario .formulario button {
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: bold;
-  background-color: #09f5c6;
-  border: none;
-  border-radius: 20px;
-  padding: 10px;
-  cursor: pointer;
-  width: 150px;
-  height: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #09f5c6;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
 }
 
 .contactoFormulario .formulario .ajusteButton {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 
-input{
+input {
     color: white;
-  }
-  textarea {
-    color: #fff;
-  }
+}
 
-  button{
+textarea {
+    color: #fff;
+}
+
+button {
     border: #fff 1px solid;
     text-shadow: #191919 1px 1px;
-  }
+}
 
-  button:hover{
+button:hover {
     animation: boton 1.5s forwards;
 }
 
@@ -1022,11 +1043,222 @@ input{
 
     10% {
         font-size: 16px;
-        background: transparent;  
+        background: transparent;
     }
+
     50% {
         font-size: 25px;
         background: #09f5c6;
-       
+
     }
+}
+
+
+
+/*--------------MediaQuery  TABLET INDEX-------------------*/
+
+@media only screen and (min-width:451px)and (max-width:960px) {
+
+    body {
+        background-image: url(imagen/galaxy-night-panorama\ \(1\).jpg);
+        height: 100vh;
+        background-position: center;
+        background-repeat: repeat;
+        width: 100%;
+        background-size: cover;
+        font-family: 'Barlow Condensed', sans-serif;
+        overflow-y: scroll;
+        scrollbar-width: thin;
+    }
+
+    p {
+        font-size: 16px;
+
+
+    }
+
+    h1 {
+        font-size: 80px;
+
+    }
+
+    h3 {
+        font-size: 16px;
+
+
+    }
+
+    .instagram {
+        width: 50px;
+    }
+
+    .linkedin {
+        width: 40px;
+    }
+
+    .github {
+        width: 50px;
+    }
+
+    span {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+}
+
+/*--------------MediaQuery  TABLET INICIO-------------------*/
+
+@media only screen and (min-width:451px)and (max-width:960px) {
+
+
+    .fotoperfil {
+        width: 300px;
+        height: 300px;
+    }
+
+    .nombre {
+
+        margin-top: -60px;
+        font-size: 28px;
+    }
+
+    .descripcion {
+        margin-top: -30px;
+        margin-left: 20px;
+        font-size: 16px;
+        font-weight: 300;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+
+}
+
+/*--------------MediaQuery  TABLET CURRICULUM-------------------*/
+
+@media only screen and (min-width:451px)and (max-width:960px) {
+
+    .logo-curriculum1 {
+        margin-left: 50px;
+
+
+    }
+
+    .logo-curriculum {
+        width: 80px;
+    }
+
+    /*-------TEXTOS TITULOS-----------*/
+
+    .div-educacion {
+        margin-left: 100px;
+    }
+
+    .educacion {
+        font-size: 25px;
+    }
+
+    .secundaria {
+        font-size: 16px;
+    }
+
+    .escuela {
+        font-size: 14px;
+    }
+
+    /*--------------------CURSOS--------------------*/
+
+    .div-cursos {
+        margin-left: 100px;
+    }
+
+    .cursos {
+        font-size: 20px;
+    }
+
+    .cursos2 {
+        font-size: 18px;
+    }
+
+    .tipo-cursos {
+        font-size: 16px;
+    }
+
+    .tipo-cursos2 {
+        font-size: 14px;
+    }
+
+
+    /*----------------------CURSOS 2-------------------*/
+
+    .div-cursos2 {
+        margin-left: 400px;
+        margin-top: -180px;
+    }
+
+    /*-----------UNIVERSIDAD--------------*/
+
+    .universidad {
+        font-size: 25px;
+
+    }
+
+    .carreras {
+        font-size: 16px;
+    }
+
+
+    .carrera {
+        font-size: 14px;
+
+    }
+
+    .uni {
+        margin-left: 400px;
+        margin-right: -150px;
+        margin-top: 60px;
+
+    }
+
+    /*-----------------IDIOMA-------------------------*/
+
+    .idiomas {
+        margin-left: 400px;
+    }
+
+    .idioma {
+        font-size: 20px;
+    }
+
+    .español {
+        font-size: 14px;
+    }
+
+    .ingles {
+        font-size: 14px;
+    }
+
+    /*------------------SKILSS-----------------------*/
+
+    .skills {
+        margin-top: -150px;
+        margin-left: 100px;
+
+    }
+
+    .skill {
+
+        font-size: 25px;
+
+    }
+
+    h5 {
+
+        font-size: 14px;
+
+
+    }
+
+    .animacion {
+        margin-left: 0px;
+    }
+    
 }
