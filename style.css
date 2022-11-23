@@ -849,6 +849,9 @@ li {
 }
 
 .titulo-carrera {
+    
+    
+    width: 70%;
     margin-right: 0px;
     margin-top: -3px;
 
@@ -863,8 +866,9 @@ li {
 }
 
 .uni {
+   
     margin-left: 700px;
-    margin-right: 0px;
+  
     margin-top: 45px;
 
 }
@@ -1138,7 +1142,7 @@ button:hover {
 
     .logo-curriculum1 {
         margin-left: 50px;
-
+       
 
     }
 
@@ -1149,7 +1153,8 @@ button:hover {
     /*-------TEXTOS TITULOS-----------*/
 
     .div-educacion {
-        margin-left: 100px;
+        margin-left: 5%;
+       
     }
 
     .educacion {
@@ -1167,22 +1172,29 @@ button:hover {
     /*--------------------CURSOS--------------------*/
 
     .div-cursos {
-        margin-left: 100px;
+        margin-left: 5%;
     }
 
     .cursos {
+        
         font-size: 20px;
     }
 
     .cursos2 {
+       
         font-size: 18px;
     }
 
     .tipo-cursos {
+        
+        width: 100%;
         font-size: 16px;
+
     }
 
     .tipo-cursos2 {
+       
+        width: 50%;
         font-size: 14px;
     }
 
@@ -1190,18 +1202,27 @@ button:hover {
     /*----------------------CURSOS 2-------------------*/
 
     .div-cursos2 {
-        margin-left: 400px;
-        margin-top: -180px;
+        margin-left: 50%;
+        
+        margin-top: -175px;
     }
 
     /*-----------UNIVERSIDAD--------------*/
+  
+    .uni {
+        margin-top: 55px;
+        margin-left: 55%;
+    
 
+    }
     .universidad {
         font-size: 25px;
+        margin-right: 0;
 
     }
 
     .carreras {
+        margin-right: 0;
         font-size: 16px;
     }
 
@@ -1211,17 +1232,15 @@ button:hover {
 
     }
 
-    .uni {
-        margin-left: 400px;
-        margin-right: -150px;
-        margin-top: 60px;
-
-    }
+    
 
     /*-----------------IDIOMA-------------------------*/
 
     .idiomas {
-        margin-left: 400px;
+        margin-left: 60%;
+        
+       
+      
     }
 
     .idioma {
@@ -1239,26 +1258,339 @@ button:hover {
     /*------------------SKILSS-----------------------*/
 
     .skills {
-        margin-top: -150px;
-        margin-left: 100px;
+        margin-top: -160px;
+        margin-left: 50px;
 
     }
 
     .skill {
 
-        font-size: 25px;
+        font-size: 20px;
 
     }
 
     h5 {
 
-        font-size: 14px;
+        font-size: 16px;
 
 
     }
 
     .animacion {
-        margin-left: 0px;
+        margin-left: -50px;
     }
     
 }
+
+
+/*---------------------Contacto-----------*/
+
+@media only screen and (min-width:451px)and (max-width:960px) {
+
+    .contactoFormulario {
+        border-radius: 20px;
+        width: 100%;
+        height: auto;
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contactoFormulario .formulario input[type=text] {
+        font-size: 16px;
+        margin-left: 50px;
+    
+    }
+    
+    .contactoFormulario .formulario input[type=email] {
+        font-size: 16px;
+        margin-left: 50px;
+    
+    
+    }
+    
+    .contactoFormulario .formulario textarea {
+        margin-left: 50px;
+        font-size: 16px;
+       
+    }
+    
+    .contactoFormulario .formulario button {
+        font-size: 16px;
+        padding: 2px;
+        width: 100px;
+        height: 30px;
+        margin-left: 50px;
+    }
+    
+}
+
+
+
+/*--------------MediaQuery  MOBILE INDEX-------------------*/
+
+@media only screen and (max-width:450px) {
+
+
+
+
+    body {
+        background-image: url(imagen/galaxy-night-panorama\ \(1\).jpg);
+        height: 100vh;
+        background-position: center;
+        background-repeat: repeat;
+        width: 100%;
+        background-size: cover;
+        font-family: 'Barlow Condensed', sans-serif;
+        overflow-y: scroll;
+        scrollbar-width: thin;
+    }
+
+    p {
+        font-size: 14px;
+
+
+    }
+
+    h1 {
+        font-size: 60px;
+
+    }
+
+    h3 {
+        font-size: 14px;
+
+
+    }
+
+  
+/*--------------MediaQuery  MOBILE INICIO-------------------*/
+
+    .fotoperfil {
+        width: 200px;
+        height: 200px;
+        margin-top: 50px;
+    }
+
+    .nombre {
+
+        margin-top: -120px;
+        font-size: 25px;
+    }
+
+    .descripcion {
+        margin-top: -80px;
+        margin-left: 20px;
+        font-size: 16px;
+       
+    }
+
+/*--------------MediaQuery  MOBILE CURRICULUM-------------------*/
+    .logo-curriculum1 {
+        margin-left: 40px;
+        width: 40%;
+       
+
+    }
+
+    .logo-curriculum {
+        width: 80px;
+    }
+
+    /*-------TEXTOS TITULOS-----------*/
+
+    .div-educacion {
+        margin-left: 15%;
+     
+        width: 70%;
+    }
+
+    .educacion {
+       
+        font-size: 22px;
+    }
+
+    .secundaria {
+        font-size: 16px;
+    }
+
+    .escuela {
+        font-size: 14px;
+    }
+
+    /*--------------------CURSOS--------------------*/
+
+    .div-cursos {
+        margin-left: 15%;
+        margin-top: 300px;
+        position: absolute;
+
+        width: 80%;
+    }
+
+    .cursos {
+        
+        font-size: 18px;
+        width: 60%;
+    }
+
+    .cursos2 {
+       
+        font-size: 16px;
+        
+    }
+
+    .tipo-cursos {
+        
+        width: 70%;
+        font-size: 16px;
+
+    }
+
+    .tipo-cursos2 {
+       
+        width: 50%;
+        font-size: 14px;
+    }
+
+
+    /*----------------------CURSOS 2-------------------*/
+
+    .div-cursos2 {
+        
+        margin-left: 15%;
+        position: absolute;
+        margin-top: 560px;
+    }
+
+    /*-----------UNIVERSIDAD--------------*/
+  
+    .uni {
+        width: 40%;
+        margin-top: 500px;
+        position: relative;
+        margin-left: 15%;
+
+
+       
+
+    }
+    .universidad {
+     
+        font-size: 25px;
+        
+
+    }
+
+    .carreras {
+       
+        margin-right: 0;
+        font-size: 16px;
+    }
+
+
+    .carrera {
+        
+        font-size: 14px;
+
+    }
+
+    
+
+    /*-----------------IDIOMA-------------------------*/
+
+    .idiomas {
+        margin-left: 15%;
+        margin-top: 600px;
+       
+      
+    }
+
+    .idioma {
+        font-size: 20px;
+    }
+
+    .español {
+        font-size: 14px;
+    }
+
+    .ingles {
+        font-size: 14px;
+    }
+
+    /*------------------SKILSS-----------------------*/
+
+    .skills {
+        margin-top: 50px;
+        margin-left: 15%;
+        width: 80%;
+    
+
+    }
+
+    .skill {
+
+        font-size: 20px;
+
+    }
+
+    h5 {
+
+        font-size: 16px;
+
+
+    }
+
+    .animacion {
+        margin-left: -50px;
+    }
+    
+
+
+
+/*---------------------Contacto-----------*/
+
+
+
+    .contactoFormulario {
+        border-radius: 20px;
+        width: 100%;
+        height: auto;
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contactoFormulario .formulario input[type=text] {
+        font-size: 16px;
+        margin-left: 50px;
+    
+    }
+    
+    .contactoFormulario .formulario input[type=email] {
+        font-size: 16px;
+        margin-left: 50px;
+    
+    
+    }
+    
+    .contactoFormulario .formulario textarea {
+        margin-left: 50px;
+        font-size: 16px;
+       
+    }
+    
+    .contactoFormulario .formulario button {
+        font-size: 16px;
+        padding: 2px;
+        width: 100px;
+        height: 30px;
+        margin-left: 50px;
+    }
+    
+
+
+
+}
+
+
