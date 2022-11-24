@@ -241,6 +241,7 @@ nav .logo:hover {
     margin-top: 500px;
     cursor: pointer;
     position: sticky;
+    
 }
 
 .Redes1 {
@@ -249,7 +250,7 @@ nav .logo:hover {
     width: 100%;
     margin-top: 200px;
     cursor: pointer;
-    position: sticky;
+    position:sticky;
 }
 
 .created {
@@ -824,7 +825,7 @@ li {
 
 .div-universidad {
     margin-right: 0px;
-    margin-top: -450px;
+    margin-top: -452px;
 }
 
 .universidad {
@@ -849,8 +850,8 @@ li {
 }
 
 .titulo-carrera {
-    
-    
+
+
     width: 70%;
     margin-right: 0px;
     margin-top: -3px;
@@ -866,9 +867,9 @@ li {
 }
 
 .uni {
-   
+
     margin-left: 700px;
-  
+
     margin-top: 45px;
 
 }
@@ -1142,7 +1143,7 @@ button:hover {
 
     .logo-curriculum1 {
         margin-left: 50px;
-       
+
 
     }
 
@@ -1154,7 +1155,7 @@ button:hover {
 
     .div-educacion {
         margin-left: 5%;
-       
+
     }
 
     .educacion {
@@ -1176,24 +1177,24 @@ button:hover {
     }
 
     .cursos {
-        
+
         font-size: 20px;
     }
 
     .cursos2 {
-       
+
         font-size: 18px;
     }
 
     .tipo-cursos {
-        
+
         width: 100%;
         font-size: 16px;
 
     }
 
     .tipo-cursos2 {
-       
+
         width: 50%;
         font-size: 14px;
     }
@@ -1203,18 +1204,19 @@ button:hover {
 
     .div-cursos2 {
         margin-left: 50%;
-        
+
         margin-top: -175px;
     }
 
     /*-----------UNIVERSIDAD--------------*/
-  
+
     .uni {
         margin-top: 55px;
-        margin-left: 55%;
-    
+        margin-left: 50%;
+
 
     }
+
     .universidad {
         font-size: 25px;
         margin-right: 0;
@@ -1232,15 +1234,15 @@ button:hover {
 
     }
 
-    
+
 
     /*-----------------IDIOMA-------------------------*/
 
     .idiomas {
         margin-left: 60%;
-        
-       
-      
+
+
+
     }
 
     .idioma {
@@ -1279,7 +1281,7 @@ button:hover {
     .animacion {
         margin-left: -50px;
     }
-    
+
 }
 
 
@@ -1295,26 +1297,26 @@ button:hover {
         display: flex;
         justify-content: center;
     }
-    
+
     .contactoFormulario .formulario input[type=text] {
         font-size: 16px;
         margin-left: 50px;
-    
+
     }
-    
+
     .contactoFormulario .formulario input[type=email] {
         font-size: 16px;
         margin-left: 50px;
-    
-    
+
+
     }
-    
+
     .contactoFormulario .formulario textarea {
         margin-left: 50px;
         font-size: 16px;
-       
+
     }
-    
+
     .contactoFormulario .formulario button {
         font-size: 16px;
         padding: 2px;
@@ -1322,7 +1324,7 @@ button:hover {
         height: 30px;
         margin-left: 50px;
     }
-    
+
 }
 
 
@@ -1363,8 +1365,8 @@ button:hover {
 
     }
 
-  
-/*--------------MediaQuery  MOBILE INICIO-------------------*/
+
+    /*--------------MediaQuery  MOBILE INICIO-------------------*/
 
     .fotoperfil {
         width: 200px;
@@ -1382,14 +1384,14 @@ button:hover {
         margin-top: -80px;
         margin-left: 20px;
         font-size: 16px;
-       
+
     }
 
-/*--------------MediaQuery  MOBILE CURRICULUM-------------------*/
+    /*--------------MediaQuery  MOBILE CURRICULUM-------------------*/
     .logo-curriculum1 {
         margin-left: 40px;
         width: 40%;
-       
+
 
     }
 
@@ -1400,13 +1402,13 @@ button:hover {
     /*-------TEXTOS TITULOS-----------*/
 
     .div-educacion {
-        margin-left: 15%;
-     
+        margin-left: 30%;
+
         width: 70%;
     }
 
     .educacion {
-       
+
         font-size: 22px;
     }
 
@@ -1421,35 +1423,34 @@ button:hover {
     /*--------------------CURSOS--------------------*/
 
     .div-cursos {
-        margin-left: 15%;
-        margin-top: 300px;
+        margin-left: 30%;
+        margin-top: 240px;
         position: absolute;
-
-        width: 80%;
+        margin-bottom: 150px;
+        width: 70%;
     }
 
     .cursos {
-        
+
         font-size: 18px;
-        width: 60%;
+        width: 90%;
     }
 
     .cursos2 {
-       
-        font-size: 16px;
-        
+
+        font-size: 14px;
+
     }
 
     .tipo-cursos {
-        
-        width: 70%;
-        font-size: 16px;
+        width: 90%;
+        font-size: 14px;
 
     }
 
     .tipo-cursos2 {
-       
-        width: 50%;
+        margin-left: -5%;
+        width: 70%;
         font-size: 14px;
     }
 
@@ -1457,53 +1458,56 @@ button:hover {
     /*----------------------CURSOS 2-------------------*/
 
     .div-cursos2 {
-        
-        margin-left: 15%;
+        width: 70%;
+        margin-left: 30%;
         position: absolute;
-        margin-top: 560px;
+        margin-top: 500px;
+        margin-bottom: 50px;
+
     }
 
     /*-----------UNIVERSIDAD--------------*/
-  
+
     .uni {
-        width: 40%;
-        margin-top: 500px;
+        width: 70%;
+        margin-top: 520px;
         position: relative;
-        margin-left: 15%;
+        margin-left: 30%;
 
 
-       
+
 
     }
+
     .universidad {
-     
+
         font-size: 25px;
-        
+
 
     }
 
     .carreras {
-       
+
         margin-right: 0;
         font-size: 16px;
     }
 
 
     .carrera {
-        
+
         font-size: 14px;
 
     }
 
-    
+
 
     /*-----------------IDIOMA-------------------------*/
 
     .idiomas {
-        margin-left: 15%;
+        margin-left: 30%;
         margin-top: 600px;
-       
-      
+
+
     }
 
     .idioma {
@@ -1524,7 +1528,7 @@ button:hover {
         margin-top: 50px;
         margin-left: 15%;
         width: 80%;
-    
+
 
     }
 
@@ -1543,12 +1547,13 @@ button:hover {
 
     .animacion {
         margin-left: -50px;
+
     }
-    
 
 
 
-/*---------------------Contacto-----------*/
+
+    /*---------------------Contacto-----------*/
 
 
 
@@ -1560,26 +1565,26 @@ button:hover {
         display: flex;
         justify-content: center;
     }
-    
+
     .contactoFormulario .formulario input[type=text] {
         font-size: 16px;
         margin-left: 50px;
-    
+
     }
-    
+
     .contactoFormulario .formulario input[type=email] {
         font-size: 16px;
         margin-left: 50px;
-    
-    
+
+
     }
-    
+
     .contactoFormulario .formulario textarea {
         margin-left: 50px;
         font-size: 16px;
-       
+
     }
-    
+
     .contactoFormulario .formulario button {
         font-size: 16px;
         padding: 2px;
@@ -1587,10 +1592,8 @@ button:hover {
         height: 30px;
         margin-left: 50px;
     }
-    
+
 
 
 
 }
-
-
