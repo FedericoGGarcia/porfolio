@@ -1351,10 +1351,9 @@ button:hover {
     .footer{
         width: 100%;
         height: 81px;
-        position: absolute;
        bottom: 0;
       
-
+    }
 
     body {
         background-image: url(imagen/galaxy-night-panorama\ \(1\).jpg);
