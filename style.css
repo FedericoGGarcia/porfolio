@@ -200,15 +200,20 @@ nav .logo:hover {
 }
 
 .contenedor-descripcion {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+   
+    font-size: 1em;
     color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 0.7em;
+    margin: 0;
+    padding: 0 0 15px 0;
 }
 
 .nombre {
-    position: relative;
-    margin-top: 20px;
+    padding: 1em 0 0 0;
+    font-size: 3em;
     font-size: 40px;
     font-weight: 600;
     font-family: 'Barlow Condensed', sans-serif;
@@ -233,7 +238,11 @@ nav .logo:hover {
 }
 
 /*------------FOOTER----------------*/
-
+.footer{
+    padding: 0;
+  margin-bottom: 40px;
+  height: auto;
+}
 .Redes {
     display: flex;
     justify-content: center;
@@ -1115,7 +1124,13 @@ button:hover {
 
 @media only screen and (min-width:451px)and (max-width:960px) {
 
-
+.footer{
+    width: 100%;
+    height: 81px;
+    position: absolute;
+   bottom: 0;
+  
+}
     .fotoperfil {
         width: 300px;
         height: 300px;
@@ -1333,7 +1348,12 @@ button:hover {
 
 @media only screen and (max-width:450px) {
 
-
+    .footer{
+        width: 100%;
+        height: 81px;
+        position: absolute;
+       bottom: 0;
+      
 
 
     body {
